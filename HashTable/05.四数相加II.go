@@ -1,6 +1,6 @@
 package main
 
-func solve(A []int, B []int, C []int, D []int) int {
+func solution(A []int, B []int, C []int, D []int) int {
 	m := make(map[int]int)
 	count := 0
 	for _, a := range A {

@@ -1,6 +1,6 @@
 package main
 
-func solve(nums1, nums2 []int) []int {
+func solution(nums1, nums2 []int) []int {
 	set := make(map[int]struct{}, 0)
 	for _, v := range nums1 {
 		//go语言中从 map 获取值会返回两个结果：值本身和一个布尔值（表示键是否存在）

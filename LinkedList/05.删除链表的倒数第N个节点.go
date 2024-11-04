@@ -5,7 +5,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func solve(head *ListNode, n int) *ListNode {
+func solution(head *ListNode, n int) *ListNode {
 	dummyHead := &ListNode{0, head}
 	slow, fast := dummyHead, dummyHead
 	for i := 0; i <= n; i++ {

@@ -1,6 +1,6 @@
 package main
 
-func solve(head *ListNode) *ListNode {
+func solution(head *ListNode) *ListNode {
 	slow, fast := head, head
 	for fast != nil && fast.Next != nil {
 		slow = slow.Next

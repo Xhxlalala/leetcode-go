@@ -5,7 +5,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func solve(head *ListNode) *ListNode {
+func solution(head *ListNode) *ListNode {
 	dummy := new(ListNode)
 	dummy.Next = head
 	cur := dummy

@@ -5,7 +5,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func solve1(headA, headB *ListNode) *ListNode {
+func solution1(headA, headB *ListNode) *ListNode {
 	curA, curB := headA, headB
 	lenA, lenB := 0, 0
 	for curA != nil {
@@ -36,7 +36,7 @@ func solve1(headA, headB *ListNode) *ListNode {
 }
 
 // 双指针: 起点相同，走过相同距离，若有交点，则必然会在相交点相遇
-func solve2(headA, headB *ListNode) *ListNode {
+func solution2(headA, headB *ListNode) *ListNode {
 	curA, curB := headA, headB
 	for curA != curB {
 		if curA == nil {

@@ -5,7 +5,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func solve(head *ListNode) *ListNode {
+func solution(head *ListNode) *ListNode {
 	var pre *ListNode
 	cur := head
 	for cur != nil {
